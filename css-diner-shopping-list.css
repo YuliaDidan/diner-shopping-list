@@ -1,0 +1,109 @@
+body {
+	/* width: 1000px; */
+	background-color: grey;
+	font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+	border: solid 20px white;
+}
+
+* {
+	margin: auto;
+	transition: all .1s ease-in;
+}
+
+.page-header {
+	height: 50px;
+	padding: 20px;
+	background-color: #696969;
+	margin-bottom: 20px;
+}
+
+h1, p {
+	text-align: center;
+	color: #F08080;
+	font-size: 30px;
+}
+
+p {
+	font-size: 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+div {
+	height: 30px;
+	color: white;
+	padding: 15px;
+	font-size: 20px;
+}
+
+.list {
+	width: 600px;
+	margin: auto;
+}
+
+li {
+	background-color: #20B2AA;
+}
+
+li:nth-child(2n){
+    color:white;
+    background-color:#008B8B;
+}
+
+li:active,
+li:hover {
+	background-color: #40E0D0;
+	border-top: solid 5px white;
+	border-bottom: solid 5px white;
+}
+
+input {
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+input:checked + label {
+    text-decoration: line-through;
+}
+
+[class]::after {
+	font-size: 15px;
+    color: white;
+    margin-left: 5px;
+}
+
+.pickles::after{
+	content: "(for the next lessons about CSS)";
+}
+
+.apples::after {
+	content: "(for more CSS manipulations)";
+}
+
+.oranges::after {
+	content: "(because they are awesome)";
+}
+
+.plates::after {
+	content: "(hm...they always disappear)";
+}
+
+.bottle::after {
+	content: "(for my friends)";
+}
+
+.page-footer {
+	width: 570px;
+	height: 30px;
+	margin: auto;
+	background-color:#696969;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+
